@@ -91,7 +91,7 @@ const Onboarding = () => {
               </ul>
               <Button 
                 className="w-full mt-6 bg-green-600 hover:bg-green-700 text-white py-3 text-lg"
-                onClick={() => navigate("/caretaker-dashboard")}
+                onClick={() => navigate("/caretaker-patients")}
               >
                 Continue as Caretaker
               </Button>
