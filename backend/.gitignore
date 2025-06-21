@@ -1,0 +1,15 @@
+# Build output
+dist/
+
+# Dependency directory
+node_modules/
+
+# Environment files
+.env
+*.env
+
+# SQLite DB files
+*.db
+
+# Logs
+*.log
