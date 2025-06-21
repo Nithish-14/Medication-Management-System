@@ -1,12 +1,17 @@
 {
-  "compilerOptions": {
+   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
-    "rootDir": "src",
+    "lib": ["ES2020"],
     "outDir": "dist",
-    "esModuleInterop": true,
+    "rootDir": "src",
     "strict": true,
-    "skipLibCheck": true
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   },
   "exclude": [
     "node_modules",
