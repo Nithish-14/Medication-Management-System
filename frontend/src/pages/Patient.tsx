@@ -5,10 +5,9 @@ import Loader from '@/components/Loader';
 import ErrorFallback from '@/components/ErrorFallback';
 
 const Patient = () => {
-
-  
   const role = "patient";
 
+  console.log("askdfj")
   const {isLoading, error} = useVerify(role);
 
   if (error) {
